@@ -1,0 +1,46 @@
+Milestone 2 - User Stories
+Members: Sreeja Keesara, Xianhui Li, Riken Maharjan, Daniel Medina, Yunyu Zhang
+CS411 - Group 1
+
+Github Link: https://github.com/SreejaKeesara/gift-smart
+
+User Log-In
+Third party authentication
+Friends/Followers contacts gained from authentication
+
+Logged-In User Looks Up Friends
+Refer to user log-in story
+If user has pinterest and public boards, go to pinterest user story
+Else, if user has facebook, go to facebook user story
+Else, “Sorry, your friend is not on social media” -> go to default gift user story
+
+Default Gift
+Ask for information about friend(gender, age, personality/profession)
+The app will give the hottest gift list on amazon that match that demographic
+
+Pinterest
+Get friend’s recent activity (likes, pins, boards)
+Compile list of keywords/presents
+Return list of links to selection story
+
+Facebook
+Get friend’s recent activity (likes, pages followed)
+Compile list of keywords/presents 
+Return list of links to selection story
+
+Selection
+Present user with list of keywords/presents
+User unchecks any irrelevant keywords (Pick top x - user determines x)
+Prompt user for budget
+Go to find gift story
+
+Find Gift
+For every keyword:
+Look up on amazon (with price filter)
+Return top two results
+Present list of results for every keyword with prices and link to amazon site
+Refer to log out story
+
+User Log Out
+User logs out
+Information deleted
