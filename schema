@@ -1,0 +1,53 @@
+{
+    "title": "spotifySongs",
+    "description": "representation of a song"
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "artist": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "mood": {
+            "type": "string"
+        }
+    }
+}
+
+{
+    "title": "localUser",
+    "description": "representation of a user"
+    "type": "object",
+    "properties": {
+        "username": {
+            "type": "string"
+        },
+        "password": {
+            "type": "string"
+        }
+    }
+}
+
+{
+    "title": "facebook",
+    "description": "representation of a facebook user"
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "token": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        }
+    }
+}
