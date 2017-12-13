@@ -1,0 +1,61 @@
+<!-- views/profile.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title>FACE App</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="style/main.css">
+	<style>
+		body 		{ padding-top:80px; word-wrap:break-word; }
+		h1{font-family: 'Lobster', cursive }
+
+		button{padding-left: 30em;}
+
+
+	</style>
+</head>
+<body>
+
+
+<div class="container">
+
+	<div class="page-header text-center">
+		<h1><span class="fa  fa-cloud-upload"></span> Upload a picture: <%= user.local.username %></h1>
+
+	</div>
+
+
+
+
+
+		<div style="margin: 1em 36.6em;">
+			<button style="margin: 0 auto;" class="btn btn-primary " ><a style="color: white" href ="/test" > Upload image </a></button>
+			<a style="margin-top:1em; margin-left: 2em;" href="/logout" class="btn btn-default btn-sm">Logout</a>
+		</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <input id="upload-input" type="file" name="file" multiple="multiple"></br> -->
+
+ <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="js/photo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+	<style>
+		body { padding-top:30px; }
+		h3{font-family: 'Lobster', cursive; padding-left: 9em;}
+		#login{  padding-left:18em; padding-bottom: 1em}
+	</style>
+
+	<h3>Click the button below</h3>
+
+<body>
+	<div id="login">
+		<!--<h1>Create a spotify playlist</h1> -->
+		<a href="/spotify-login" class="btn btn-primary"><%=parsedMood.replace(/['"]+/g, '').toUpperCase()%> Playlist</a>
+	</div>
+	
+
+<div class="container">
+	
+	<div id="loggedin">
+		<div id="user-profile">
+		</div>
+		<div id="oauth">
+		</div>
+
+		<!--<a href="/refresh_token" class="btn btn-primary"> Refresh spotify token </a> -->
+
+	</div>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+.jumbotron h1{
+    color: black;
+    margin-bottom: .75em;
+    font-family: 'Lobster', cursive;
+
+}
+
+.jumbotron a{
+
+    border-color: black;
+    border-style: solid;
+    padding: .65em;
+    width: 15em;
+
+
+
+}
+
+.jumbotron{
+    background-color: lightslategray;
+
+}
+
+#facebook_btn{
+    background-color: royalblue;
+
+}
+#facebook_btn span{
+    padding-right: .15em;
+
+}

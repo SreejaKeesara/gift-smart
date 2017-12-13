@@ -1,0 +1,61 @@
+<!-- views/login.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title>Face App</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">  <!-- load fontawesome -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="style/login.css">
+	<style>
+		body 		{ padding-top:80px; }
+		h1{font-family: 'Lobster', cursive}
+		label{font-family: 'Lobster', cursive }
+		body p{
+			font-family: "Yu Gothic UI Semibold";
+			font-size: 1em
+		}
+		input{font-family: "Yu Gothic UI"; font-size: 1em;		}
+		button{font-family: "Yu Gothic UI";font-size: 1em; border-style: solid; border-color:black; padding: .65em; }
+
+	</style>
+</head>
+<body>
+<div class="container">
+
+	<div class="col-sm-6 col-sm-offset-3">
+
+		<h1 id="log_in" ><span class="fa fa-user" ></span> Login</h1>
+
+		<!-- show any messages that come back with authentication -->
+        <% if (message.length > 0) { %>
+		<div class="alert alert-danger"><%= message %></div>
+        <% } %>
+
+		<!-- LOGIN FORM -->
+		<form action="/login" method="post">
+			<div class="form-group">
+				<label>Email</label>
+				<input type="text" class="form-control" name="email">
+			</div>
+			<div class="form-group">
+				<label>Password</label>
+				<input type="password" class="form-control" name="password">
+			</div>
+
+			<button type="submit" class="btn btn-primary ">Log in</button>
+		</form>
+
+		<hr>
+
+		<p><strong>Need an account? <a href="/signup">Signup</a></p>
+		<p>Or go <a href="/">home</a>.</p>
+
+
+
+	</div>
+
+</div>
+</body>
+</html>
+

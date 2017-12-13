@@ -1,0 +1,37 @@
+{
+  "name": "FACEAPP(Express)",
+  "description": "S3Upload+Face",
+  "version": "0.1.0",
+  "main": "server",
+  "engines": {
+    "node": ">=7.7.4"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "async-request": "^1.2.0",
+    "async-waterfall": "^0.1.5",
+    "asyncawait": "^1.0.6",
+    "aws-sdk": "^2.88.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "~0.1.1",
+    "connect-multiparty": "^2.1.0",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "^4.15.3",
+    "express-session": "latest",
+    "formidable": "^1.1.1",
+    "mongoose": "latest",
+    "morgan": "~1.5.2",
+    "passport": "~0.2.1",
+    "passport-facebook": "~2.0.0",
+    "passport-local": "~1.0.0",
+    "querystring": "~0.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "author": {
+    "name": "Riken,Yunzu,Shreeja,Daniel",
+    "email": "rikenm@bu.edu"
+  }
+}
